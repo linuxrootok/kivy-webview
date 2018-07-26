@@ -1,0 +1,21 @@
+--dist_name wv
+--android_api 23
+--sdk_dir /home/tyler/develop/sdk-24
+--ndk_dir /home/tyler/develop/ndk-r13
+--ndk_version r13 
+#--ndk_dir /home/tyler/develop/ndk-r10e
+#--ndk_version r10e-rc4
+--requirements pyjnius,python2,kivy,sdl2_mixer,android
+--package org.wv
+--name wv
+--arch armeabi-v7a
+--version 0.4
+--private .
+--bootstrap sdl2 
+--copy-libs
+--window
+--permission INTERNET
+--permission VIBRATE
+--permission ACCESS_WIFI_STATE
+--permission CHANGE_WIFI_STATE
+--permission CHANGE_NETWORK_STATE
